@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Exibe o site corretamente com base no dispositivo do usuário -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <title>Frontend Mentor | Tabela Controle de Gastos</title>
+</head>
+<body>
+
+  <div class="mainContainer">
+    <header class="container header" role="banner">
+      <div class="headerTextContainer">
+        <h2>Meu saldo</h2>
+        <p>R$921.48</p>
+      </div>
+      <img src="./images/logo.svg" id="logo" alt="logo" class="logo">     
+    </header>
+    
+    <main class="container chart" role="main">
+      <h1>Gastos - últimos 7 dias</h1>
+
+      <!-- Criar as listas do gráfico -->
+      <ul class="dayList">
+        <li class="dayContainer">
+          <div class="chartBarAmount"></div>
+          <div class="chartBar"></div>
+          <div class="day">seg</div>
+        </li>
+        <li class="dayContainer">
+          <div class="chartBarAmount"></div>
+          <div class="chartBar"></div>
+          <div class="day">ter</div>
+        </li>
+        <li class="dayContainer">
+          <div class="chartBarAmount"></div>
+          <div class="chartBar"></div>
+          <div class="day">qua</div>
+        </li>
+        <li class="dayContainer">
+          <div class="chartBarAmount"></div>
+          <div class="chartBar"></div>
+          <div class="day">qui</div>
+        </li>
+        <li class="dayContainer">
+          <div class="chartBarAmount"></div>
+          <div class="chartBar"></div>
+          <div class="day">sex</div>
+        </li>
+        <li class="dayContainer">
+          <div class="chartBarAmount"></div>
+          <div class="chartBar"></div>
+          <div class="day">sáb</div>
+        </li>
+         <li class="dayContainer">
+          <div class="chartBarAmount"></div>
+          <div class="chartBar"></div>
+          <div class="day">dom</div>
+        </li>  
+      </ul>
+      <!-- Quebra temática -->
+      <hr>
+       <!-- Quebra temática -->
+      <footer class="summary">
+        <div class="summary-left">
+          <h2 class="summary-total-header">Total este mês</h3>
+          <p class="summary-total-amount">R$478.33</p>
+        </div>
+        <div class="summary-right">
+          <h2 class="variance-header">do mês passado</h3>
+          <p class="variance">+2.4%</p>
+        </div>
+      </footer>
+    </main>
+  </div>
+  
+  <!-- <div class="attribution"  role="contentinfo">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gabriel Fraga</a>.
+  </div> -->
+
+  <script src="./script/script.js"></script>
+</html>
