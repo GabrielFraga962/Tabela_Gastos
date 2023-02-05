@@ -1,4 +1,3 @@
 # Tabela_Gastos 📊
 
 ---
-
